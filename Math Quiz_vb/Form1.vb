@@ -153,4 +153,12 @@
         StartTheQuiz()
         startButton.Enabled = False
     End Sub
+
+    Private Sub AProposToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AProposToolStripMenuItem.Click
+        about.Show()
+    End Sub
+
+    Private Sub QuitterToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles QuitterToolStripMenuItem.Click
+        Close()
+    End Sub
 End Class
